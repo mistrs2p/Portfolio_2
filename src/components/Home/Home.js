@@ -30,7 +30,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> Mahdi Mosuavi</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -51,7 +51,7 @@ function Home() {
       </Container>
       <Home2 />
 
-      <Container>
+      {/* <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
             <h1>Find Me On</h1>
@@ -102,7 +102,7 @@ function Home() {
             </ul>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </section>
   );
 }
