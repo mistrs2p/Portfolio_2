@@ -24,6 +24,7 @@ import MUI from "../../Assets/TechIcons/MUI.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import AWS from "../../Assets/TechIcons/AWS.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
+import AgGrid from "../../Assets/TechIcons/AgGrid.svg";
 
 function Techstack() {
   return (
@@ -121,6 +122,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Postman} alt="Postman" />
         <div className="tech-icons-text">Postman</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={AgGrid} alt="AgGrid" width={80} />
+        <div className="tech-icons-text">AgGrid</div>
       </Col>
 
       {/* <Col xs={4} md={2} className="tech-icons">
